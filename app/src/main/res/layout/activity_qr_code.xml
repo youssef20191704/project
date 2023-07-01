@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/textView23"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="89dp"
+        android:layout_above="@+id/qrCodeImageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="56dp"
+        android:text="Scanning"
+        android:textAlignment="center"
+        android:textColor="@color/pink"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/qrCodeImageView"
+        android:layout_width="274dp"
+        android:layout_height="279dp"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="69dp"
+        android:onClick="onScanButtonClick"
+        android:text="Scan QR Code" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="153dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+
+        android:text="OR" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="231dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/qrCodeImageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="84dp"
+        android:text="Scan the QRcode by facing it to the sensor"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+</RelativeLayout>

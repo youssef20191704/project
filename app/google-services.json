@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1093135389085",
+    "firebase_url": "https://shopn-go-aecbd-default-rtdb.firebaseio.com",
+    "project_id": "shopn-go-aecbd",
+    "storage_bucket": "shopn-go-aecbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093135389085:android:362a70432f2fe2c25b5f74",
+        "android_client_info": {
+          "package_name": "com.example.mobileapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093135389085-sq4ds1n3gnqaqr5t8qclq1abkhqf9d9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTvEv0vtSsvBXrmdTPBjItoz1nbyD7dkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093135389085-sq4ds1n3gnqaqr5t8qclq1abkhqf9d9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093135389085:android:ead218aa8745450a5b5f74",
+        "android_client_info": {
+          "package_name": "com.example.shopngo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093135389085-sq4ds1n3gnqaqr5t8qclq1abkhqf9d9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTvEv0vtSsvBXrmdTPBjItoz1nbyD7dkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093135389085-sq4ds1n3gnqaqr5t8qclq1abkhqf9d9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
